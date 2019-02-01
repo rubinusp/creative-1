@@ -1,0 +1,32 @@
+.banner {
+    width: 100%;
+}
+
+.bg-light {
+    background-color: #0C1D63!important;
+}
+
+.navbar-brand {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.nav-item .nav-link {
+    color: #82A4D5!important;
+}
+
+.nav-item .nav-link:hover {
+    color: #EEEEEE!important;
+}
+
+.nav-item.active .nav-link {
+    color: #95C6F7!important;
+}
+
+.nav-logo {
+    width: 45px;
+}
+
+p {
+    color:#AA00AA
+}

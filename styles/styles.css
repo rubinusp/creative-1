@@ -101,6 +101,13 @@ h1,h2,h3,h4,h5,h6 {
     opacity: 0;
 }
 
+@media only screen and (min-width: 960px) {
+    .section,
+    .section-overlay {
+        width: 49vw;
+    }
+}
+
 .navbar-brand {
     margin-right: 5px;
     margin-left: 5px;
@@ -122,11 +129,16 @@ h1,h2,h3,h4,h5,h6 {
     width: 45px;
 }
 
+.news-item {
+    height: 300px;
+}
+
 .news-art {
     width: 33%;
     height: 700px; 
     object-fit: cover;
     position: sticky;
+    top: 0;
 }
 
 .news-container {
@@ -141,7 +153,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .news-content {
     width: 66%;
-    height: 700px;
+    height: fit-content;
     padding-left: 30px;
 }
 

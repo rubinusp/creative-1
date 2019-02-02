@@ -10,6 +10,28 @@ body {
     background-color: #000;
 }
 
+.contact-art {
+    width: 33%;
+    height: 400px; 
+    object-fit: cover;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 3px solid;
+    border-color: #1B244D;
+}
+
+.contact-content {
+    width: 66%;
+    height: 400px;
+    padding-left: 30px;
+}
+
 .footer-spacing {
     margin-top: 10px;
     margin: 10px auto;
@@ -24,6 +46,16 @@ body {
 
 .feature-3-adjustment {
     object-position: 10% 80%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#EEEEEE;
+}
+
+.header-decoration {
+    font-family: 'Playfair Display SC', serif;
+    border-bottom: 3px dotted #1B244D;
+    padding: 10px 0px 10px 0px;
 }
 
 .index-page {
@@ -89,5 +121,5 @@ body {
 }
 
 p {
-    color:#EEEEEE;
+    color:#CCCCCC;
 }

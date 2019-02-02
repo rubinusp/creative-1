@@ -3,7 +3,27 @@
 }
 
 .bg-light {
-    background-color: #0C1D63!important;
+    background-color: #1B244D!important;
+}
+
+body {
+    background-color: #000;
+}
+
+.footer-spacing {
+    margin-top: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.footer-comment {
+    font-size: 0.8em;
+    margin-right: 5px;
+    position: inline;
+}
+
+.feature-3-adjustment {
+    object-position: 10% 80%;
 }
 
 .index-page {
@@ -17,6 +37,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .section-item {
@@ -66,5 +89,5 @@
 }
 
 p {
-    color:#AA00AA
+    color:#EEEEEE;
 }

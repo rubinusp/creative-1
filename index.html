@@ -11,42 +11,41 @@
 </head>
 
 <body>
-    <div class="top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarNav">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html"><strong>home</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/info/intro.html">info</a>
+                </li>
+            </ul>
+        </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarNav">
-                <ul class="navbar-nav ml-auto text-center">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/index.html"><strong>home</strong></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pages/info/intro.html">info</a>
-                    </li>
-                </ul>
+        <div class="mx-auto">
+            <div class="mx-auto order-0 order-md-1 position-relative">
+                <a class="navbar-brand" href="/index.html"><img class="nav-logo" src="/images/lol-logo.png"></a>
             </div>
 
-            <div class="mx-auto">
-                <div class="mx-auto order-0 order-md-1 position-relative">
-                    <a class="navbar-brand" href="/index.html"><img class="nav-logo" src="/images/lol-logo.png"></a>
-                </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-
-            <div class="collapse navbar-collapse w-100 order-3 dual-collapse2">
-                <ul class="navbar-nav mr-auto text-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pages/news/news.html">news</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pages/contact/contact.html">contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        
+        <div class="collapse navbar-collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav mr-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/news/news.html">news</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/contact/contact.html">contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
         <div class="index-page">
             <a href="/pages/info/intro.html">
                 <div class="section">
@@ -56,14 +55,14 @@
                 </div>
             </a>
 
-            <a href="/pages/news/news.html"></a>
+            <a href="/pages/news/news.html">
                 <div class="section">
                     <div class="section-overlay"></div>
                     <div class="section-title">NEWS</div>
                     <img class="section-item" src="/images/feature-1.jpg"/>
                 </div>
             </a>    
-            
+
             <div class="section">
                 <div class="section-overlay"></div>
                 <div class="section-title">EVENTS</div>
@@ -72,35 +71,16 @@
             <div class="section">
                 <div class="section-overlay"></div>
                 <div class="section-title">CONTACTS</div>
-                <img class="section-item" src="/images/feature-3.jpg"/>
+                <img class="section-item feature-3-adjustment" src="/images/feature-3.jpg"/>
             </div>
         </div>
+    </main>
 
-        <main>
-            <div style="overflow:hidden">
-                <h1 style="font-weight:bold;font-size:30px">League Of Legends</h1>
-                <div style="float:left;width:100%;margin:10px">
-                    <a href="https://na.leagueoflegends.com/en/news/champions-skins/champion-release/neeko-available-now" 
-                    style="font-weight:bold;font-size:1.3rem">
-                        <p><strong>New Player Guide!</strong>
-                        <em>New to the game? Turrets giving you trouble? Should I hit this dragon? We got you.</em>
-                        </p>
-                    </a>
-                </div>
-                <img src="https://am-a.akamaihd.net/image?resize=320:&amp;quality=90&amp;f=http://na.leagueoflegends.com/sites/default/files/styles/wide_xlarge/public/upload/snowdown2018_centrallol_no_text_thumbnail.jpg" 
-                    style="float:left;width:30%"/>
-                    <a href="https://youtu.be/E2NVjOWxNtA" 
-                        style="float:left;width:100%;margin:10px">Snowdown 2018 Event Trailer</a>
-                <img src="https://am-a.akamaihd.net/image?resize=320:&amp;quality=90&amp;f=http://na.leagueoflegends.com/sites/default/files/styles/wide_xlarge/public/upload/champion_spotlight_thumbnail_no_text_neeko.jpg" 
-                    style="float:left;width:30%"/>
-                    <a href="https://youtu.be/bPj48lmrynU" 
-                        style="float:left;width:100%;margin:10px">Neeko Champion Spotlight</a>
-            </div>
-        </main>
-    </div>
-    
-    <footer><p>If you need more information about League of Legends go to
-    <a href="https://na.leagueoflegends.com/en/">https://na.leagueoflegends.com/en/</a></p>
+    <footer class="footer-spacing">
+        <p class="footer-comment">This website is for the purpose of learning and study</p>
+        <a href="https://github.com/rubinusp/creative-1">
+            <img src="/images/github-icon/PNG/GitHub-Mark-32px.png"/>
+        </a>
     </footer>
 
     <!-- Bootstrap Scripts-->
